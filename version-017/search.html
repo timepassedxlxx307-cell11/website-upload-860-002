@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>影片搜索-精品日韩剧</title>
+    <meta name="description" content="搜索日韩免费视频资源、电影大片、热播剧集和高清影视作品。">
+    <meta name="keywords" content="影片搜索,日韩免费视频资源,在线观看,电影大片,热播剧集,高清,影视作品,点播">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="./index.html" aria-label="精品日韩剧">
+                <span class="brand-mark">日</span>
+                <span class="brand-text">精品日韩剧</span>
+            </a>
+            <nav class="desktop-nav">
+                    <a class="nav-link" href="./index.html">首页</a>
+                    <a class="nav-link" href="./categories.html">分类</a>
+                    <a class="nav-link" href="./rankings.html">排行榜</a>
+                    <a class="nav-link is-active" href="./search.html">搜索</a>
+            </nav>
+            <form class="header-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、地区、类型" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="mobile-nav" data-mobile-nav>
+                <a class="mobile-link" href="./index.html">首页</a>
+                <a class="mobile-link" href="./categories.html">分类</a>
+                <a class="mobile-link" href="./rankings.html">排行榜</a>
+                <a class="mobile-link is-active" href="./search.html">搜索</a>
+            <form class="mobile-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="输入关键词">
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section class="search-hero">
+            <div class="container">
+                <h1>搜索高清影视作品</h1>
+                <form class="search-box-large" action="./search.html" method="get">
+                    <input type="search" name="q" placeholder="输入影片名、类型、地区、年份" data-search-input autocomplete="off">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <h2>搜索结果</h2>
+                        <p>可按影片标题、题材、地区、年份与标签匹配内容。</p>
+                    </div>
+                    <span class="filter-count" data-search-count>0 部影片</span>
+                </div>
+                <div class="movie-grid" data-search-results></div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="footer-brand" href="./index.html">精品日韩剧</a>
+                <p>整合日韩免费视频资源，实现在线观看电影大片与热播剧集。本站内容涵盖高清影视作品，提供便捷的在线点播服务。</p>
+            </div>
+            <div>
+                <h2>热门分类</h2>
+                <div class="footer-links"><a href="./category-jp-korea-hot.html">日韩热播</a><a href="./category-movie-blockbusters.html">电影大片</a><a href="./category-hit-series.html">热播剧集</a><a href="./category-suspense-crime.html">悬疑犯罪</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-romance-drama.html">爱情剧情</a></div>
+            </div>
+            <div>
+                <h2>快速入口</h2>
+                <div class="footer-links">
+                    <a href="./categories.html">分类总览</a>
+                    <a href="./rankings.html">影片排行榜</a>
+                    <a href="./search.html">影片搜索</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/search-data.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</body>
+</html>

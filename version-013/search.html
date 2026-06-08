@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="搜索国产电视剧视频免费在线播放内容，按剧名、题材、地区、年份与关键词查找高清观看入口。">
+    <meta name="keywords" content="国产电视剧视频免费在线播放_最新剧集高清大全与观看入口-好看国产剧,国产,视频,免费,在线观看,高清,影视大全">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>影片搜索-国产电视剧视频免费在线播放_最新剧集高清大全与观看入口-好看国产剧</title>
+</head>
+<body>
+<header class="site-header">
+    <div class="nav-container">
+        <a href="./index.html" class="brand" aria-label="好看国产剧">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">好看国产剧</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="./index.html" class="nav-link">首页</a>
+                <a href="./categories.html" class="nav-link">分类片库</a>
+                <a href="./ranking.html" class="nav-link">热播榜</a>
+                <a href="./search.html" class="nav-link">搜索</a>
+        </nav>
+        <form class="top-search" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索剧名、题材、地区" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" aria-label="打开导航" data-menu-toggle>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <form class="mobile-search" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索剧名、题材、地区" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <nav aria-label="移动导航">
+            <a href="./index.html" class="mobile-nav-link">首页</a>
+            <a href="./categories.html" class="mobile-nav-link">分类片库</a>
+            <a href="./ranking.html" class="mobile-nav-link">热播榜</a>
+            <a href="./search.html" class="mobile-nav-link">搜索</a>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="page-hero search-hero">
+        <div class="page-hero-inner">
+            <span class="page-kicker">Search</span>
+            <h1>影片搜索</h1>
+            <p>输入剧名、题材、地区、年份或关键词，快速查找对应观看入口。</p>
+            <form class="hero-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="例如：悬疑、古装、爱情、2025" autocomplete="off">
+                <button type="submit">立即搜索</button>
+            </form>
+        </div>
+    </section>
+    <section class="content-section">
+        <div id="searchResult" class="search-result"></div>
+        <div id="searchDefault">
+            <div class="section-heading">
+    <div>
+        <h2>热门推荐</h2>
+        <p>可以从这些内容开始浏览</p>
+    </div>
+    <a href="./ranking.html" class="section-link">查看热播榜 →</a>
+</div>
+            <div class="movie-grid four-col">
+                <a href="./movies/0001.html" class="movie-card compact-card" data-title="罗贝尔塔" data-tags="爵士名伶 二战 巴黎" data-year="2025">
+    <span class="poster-frame">
+        <img src="./1.jpg" alt="罗贝尔塔" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">罗贝尔塔</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">87:11</span>
+        <span class="category-badge">家庭生活</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">罗贝尔塔</span>
+        <span class="movie-meta">2025 · 法国 · 电影</span>
+        <span class="movie-desc">二战期间,一位巴黎爵士歌手用歌声掩护抵抗组织,自己却爱上了一名纳粹军官。</span>
+    </span>
+</a>
+<a href="./movies/0002.html" class="movie-card compact-card" data-title="梦之森林" data-tags="梦境 环保 治愈" data-year="2025">
+    <span class="poster-frame">
+        <img src="./2.jpg" alt="梦之森林" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">梦之森林</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">101:22</span>
+        <span class="category-badge">悬疑犯罪</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">梦之森林</span>
+        <span class="movie-meta">2025 · 英国 · 电影</span>
+        <span class="movie-desc">每当人类做梦,森林里就会长出一颗记忆之果,直到伐木工砍倒了老树精。</span>
+    </span>
+</a>
+<a href="./movies/0003.html" class="movie-card compact-card" data-title="冰海叛谍" data-tags="潜艇 双面间谍 北极" data-year="2014">
+    <span class="poster-frame">
+        <img src="./3.jpg" alt="冰海叛谍" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">冰海叛谍</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">89:33</span>
+        <span class="category-badge">奇幻科幻</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">冰海叛谍</span>
+        <span class="movie-meta">2014 · 英国 · 电影</span>
+        <span class="movie-desc">英国核潜艇潜入北极冰盖下,艇上却发现一名准备引爆反应堆的双面间谍。</span>
+    </span>
+</a>
+<a href="./movies/0004.html" class="movie-card compact-card" data-title="黑玫瑰" data-tags="卧底 女杀手 复仇" data-year="2025">
+    <span class="poster-frame">
+        <img src="./4.jpg" alt="黑玫瑰" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">黑玫瑰</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">55:44</span>
+        <span class="category-badge">都市情感</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">黑玫瑰</span>
+        <span class="movie-meta">2025 · 中国香港 · 剧集</span>
+        <span class="movie-desc">警校最优秀的毕业生被要求假扮黑帮老大的情妇“黑玫瑰”,但她很快发现,真正的黑玫瑰另有其人且正在看着自己。</span>
+    </span>
+</a>
+<a href="./movies/0005.html" class="movie-card compact-card" data-title="飞行艳使" data-tags="飞行员 一战 间谍" data-year="2024">
+    <span class="poster-frame">
+        <img src="./5.jpg" alt="飞行艳使" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">飞行艳使</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">83:55</span>
+        <span class="category-badge">动作冒险</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">飞行艳使</span>
+        <span class="movie-meta">2024 · 法国/意大利 · 电影</span>
+        <span class="movie-desc">一战时期,法国最性感的女飞行员为救被俘的恋人,独自驾驶战机穿越敌线,却发现自己要炸的正是恋人所在的战俘营。</span>
+    </span>
+</a>
+<a href="./movies/0006.html" class="movie-card compact-card" data-title="我的左手右手" data-tags="失散姐妹 中年和解 双胞胎错位" data-year="2013">
+    <span class="poster-frame">
+        <img src="./6.jpg" alt="我的左手右手" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">我的左手右手</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">63:06</span>
+        <span class="category-badge">动作冒险</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">我的左手右手</span>
+        <span class="movie-meta">2013 · 中国大陆 · 剧集</span>
+        <span class="movie-desc">一对双胞胎姐妹出生时被分开,40年后因一只左手和一只右手,在手术台上相认。</span>
+    </span>
+</a>
+<a href="./movies/0007.html" class="movie-card compact-card" data-title="千年决斗" data-tags="泰拳 轮回转世 史诗" data-year="2023">
+    <span class="poster-frame">
+        <img src="./7.jpg" alt="千年决斗" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">千年决斗</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">95:17</span>
+        <span class="category-badge">最新剧集</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">千年决斗</span>
+        <span class="movie-meta">2023 · 泰国 · 电影</span>
+        <span class="movie-desc">一个被诅咒的泰拳战士为了救赎,必须在一千年后的今天击败自己的前世。</span>
+    </span>
+</a>
+<a href="./movies/0008.html" class="movie-card compact-card" data-title="英国反间谍" data-tags="冷战 MI5 双面间谍" data-year="2021">
+    <span class="poster-frame">
+        <img src="./8.jpg" alt="英国反间谍" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">英国反间谍</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">50:28</span>
+        <span class="category-badge">奇幻科幻</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">英国反间谍</span>
+        <span class="movie-meta">2021 · 英国 · 剧集</span>
+        <span class="movie-desc">军情五处菜鸟女分析师发现部门最高层藏匿了一个潜伏三十年的苏联鼹鼠。</span>
+    </span>
+</a>
+<a href="./movies/0009.html" class="movie-card compact-card" data-title="不可告人" data-tags="罗生门式叙事 心理博弈 局中局" data-year="2006">
+    <span class="poster-frame">
+        <img src="./9.jpg" alt="不可告人" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">不可告人</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">95:39</span>
+        <span class="category-badge">动作冒险</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">不可告人</span>
+        <span class="movie-meta">2006 · 中国香港 · 电影</span>
+        <span class="movie-desc">一具雨夜尸体引出四个版本的说辞,谁在说谎,谁才是真正的猎物?</span>
+    </span>
+</a>
+<a href="./movies/0010.html" class="movie-card compact-card" data-title="交易" data-tags="绑架 道德困境 限时营救" data-year="2025">
+    <span class="poster-frame">
+        <img src="./10.jpg" alt="交易" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">交易</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">107:50</span>
+        <span class="category-badge">最新剧集</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">交易</span>
+        <span class="movie-meta">2025 · 美国 · 电影</span>
+        <span class="movie-desc">女儿被绑架后,一个父亲收到绑匪的“交易”——杀死另一个无辜者,就能换回女儿。</span>
+    </span>
+</a>
+<a href="./movies/0011.html" class="movie-card compact-card" data-title="20小时" data-tags="实时 高概念 反恐" data-year="2025">
+    <span class="poster-frame">
+        <img src="./11.jpg" alt="20小时" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">20小时</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">121:01</span>
+        <span class="category-badge">动作冒险</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">20小时</span>
+        <span class="movie-meta">2025 · 美国 · 电影</span>
+        <span class="movie-desc">一名被诬陷的CIA审讯专家,必须在20小时内从自己设计的黑狱中逃出并洗清罪名。</span>
+    </span>
+</a>
+<a href="./movies/0012.html" class="movie-card compact-card" data-title="当家主母" data-tags="宅斗 女性成长 权谋" data-year="2021">
+    <span class="poster-frame">
+        <img src="./12.jpg" alt="当家主母" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">当家主母</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">49:12</span>
+        <span class="category-badge">悬疑犯罪</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">当家主母</span>
+        <span class="movie-meta">2021 · 中国大陆 · 剧集</span>
+        <span class="movie-desc">苏州织造府寡妇沈翠为守住家业与秘传绣法,被迫与小叔结盟,却意外揭开前夫假死之谜。</span>
+    </span>
+</a>
+<a href="./movies/0013.html" class="movie-card compact-card" data-title="向医院前行" data-tags="医疗 求生 人性" data-year="2024">
+    <span class="poster-frame">
+        <img src="./13.jpg" alt="向医院前行" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">向医院前行</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">120:23</span>
+        <span class="category-badge">悬疑犯罪</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">向医院前行</span>
+        <span class="movie-meta">2024 · 中国大陆 · 电影</span>
+        <span class="movie-desc">大地震后,一位癌症晚期的父亲背着重伤女儿徒步百公里向医院前行。</span>
+    </span>
+</a>
+<a href="./movies/0014.html" class="movie-card compact-card" data-title="偷窃" data-tags="小偷世家 道德继承 家庭伦理" data-year="2024">
+    <span class="poster-frame">
+        <img src="./14.jpg" alt="偷窃" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">偷窃</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">110:34</span>
+        <span class="category-badge">爱情喜剧</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">偷窃</span>
+        <span class="movie-meta">2024 · 法国 · 电影</span>
+        <span class="movie-desc">一个偷窃世家的父亲临终前说:“我们这个家族,最值得骄傲的不是偷了多少钱,而是从未被人抓住过。</span>
+    </span>
+</a>
+<a href="./movies/0015.html" class="movie-card compact-card" data-title="东北偏北" data-tags="东北 小镇 连环案" data-year="2025">
+    <span class="poster-frame">
+        <img src="./15.jpg" alt="东北偏北" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">东北偏北</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">117:45</span>
+        <span class="category-badge">高清片库</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">东北偏北</span>
+        <span class="movie-meta">2025 · 中国大陆 · 电影</span>
+        <span class="movie-desc">1999年最后一个月,东北小镇发生连环失踪案,所有线索都指向一个废弃澡堂。</span>
+    </span>
+</a>
+<a href="./movies/0016.html" class="movie-card compact-card" data-title="我把社长解锁了" data-tags="财阀 人工智能 替身" data-year="2023">
+    <span class="poster-frame">
+        <img src="./16.jpg" alt="我把社长解锁了" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">我把社长解锁了</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">35:56</span>
+        <span class="category-badge">高清片库</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">我把社长解锁了</span>
+        <span class="movie-meta">2023 · 韩国 · 电视剧集</span>
+        <span class="movie-desc">一个无业游民意外捡到一部手机,里面竟关着被黑客囚禁的大财团社长的人工智能。</span>
+    </span>
+</a>
+<a href="./movies/0017.html" class="movie-card compact-card" data-title="再过四年" data-tags="政敌 中年 暧昧" data-year="2010">
+    <span class="poster-frame">
+        <img src="./17.jpg" alt="再过四年" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">再过四年</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">88:07</span>
+        <span class="category-badge">都市情感</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">再过四年</span>
+        <span class="movie-meta">2010 · 瑞典 · 电影</span>
+        <span class="movie-desc">在野党领袖在电视辩论中对执政党英俊的首相一见钟情,为了多看他四年,他决定竞选失败。</span>
+    </span>
+</a>
+<a href="./movies/0018.html" class="movie-card compact-card" data-title="林中秘族" data-tags="深山村落 民俗恐怖 祭祀" data-year="2026">
+    <span class="poster-frame">
+        <img src="./18.jpg" alt="林中秘族" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">林中秘族</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">109:18</span>
+        <span class="category-badge">古装传奇</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">林中秘族</span>
+        <span class="movie-meta">2026 · 日本 · 电影</span>
+        <span class="movie-desc">民俗学者进入与世隔绝的山村研究“长寿祭祀”,却发现村民每三十年献祭一个外来者来换不老。</span>
+    </span>
+</a>
+<a href="./movies/0019.html" class="movie-card compact-card" data-title="一条叫王子的狗" data-tags="狗 治愈 自闭症儿童" data-year="2020">
+    <span class="poster-frame">
+        <img src="./19.jpg" alt="一条叫王子的狗" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">一条叫王子的狗</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">92:29</span>
+        <span class="category-badge">古装传奇</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">一条叫王子的狗</span>
+        <span class="movie-meta">2020 · 英国 · 电影</span>
+        <span class="movie-desc">一条被遗弃的老狗走进了自闭症男孩的世界,用最简单的方式教会了他拥抱与告别。</span>
+    </span>
+</a>
+<a href="./movies/0020.html" class="movie-card compact-card" data-title="你真的太棒了 笑出腹肌版" data-tags="即兴喜剧 整蛊 明星" data-year="2024">
+    <span class="poster-frame">
+        <img src="./20.jpg" alt="你真的太棒了 笑出腹肌版" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">你真的太棒了 笑出腹肌版</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">64:40</span>
+        <span class="category-badge">都市情感</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">你真的太棒了 笑出腹肌版</span>
+        <span class="movie-meta">2024 · 中国大陆 · 综艺</span>
+        <span class="movie-desc">五位固定嘉宾在完全不知情的状况下,被丢进各种离谱场景进行即兴表演。</span>
+    </span>
+</a>
+<a href="./movies/0021.html" class="movie-card compact-card" data-title="艳惊情" data-tags="情色 复仇 绑架" data-year="2024">
+    <span class="poster-frame">
+        <img src="./21.jpg" alt="艳惊情" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">艳惊情</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">84:51</span>
+        <span class="category-badge">奇幻科幻</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">艳惊情</span>
+        <span class="movie-meta">2024 · 中国香港 · 电影</span>
+        <span class="movie-desc">一场精心策划的“意外”绑架案,将过气艳星、落魄导演和富商情人卷入一场爱欲与背叛的漩涡。</span>
+    </span>
+</a>
+<a href="./movies/0022.html" class="movie-card compact-card" data-title="追夫四人行" data-tags="公路 闺蜜 乌龙" data-year="2025">
+    <span class="poster-frame">
+        <img src="./22.jpg" alt="追夫四人行" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">追夫四人行</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">108:02</span>
+        <span class="category-badge">爱情喜剧</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">追夫四人行</span>
+        <span class="movie-meta">2025 · 中国大陆 · 电影</span>
+        <span class="movie-desc">前男友跑了?四个性格迥异的女人开着二手面包车,踏上了啼笑皆非的千里追夫路。</span>
+    </span>
+</a>
+<a href="./movies/0023.html" class="movie-card compact-card" data-title="喜羊羊与灰太狼之守护" data-tags="合家欢 奇幻 环保" data-year="2024">
+    <span class="poster-frame">
+        <img src="./23.jpg" alt="喜羊羊与灰太狼之守护" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">喜羊羊与灰太狼之守护</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">41:13</span>
+        <span class="category-badge">最新剧集</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">喜羊羊与灰太狼之守护</span>
+        <span class="movie-meta">2024 · 中国大陆 · 动画电影</span>
+        <span class="movie-desc">青青草原突然长出神秘巨树,喜羊羊和灰太狼不得不联手对抗偷取“自然之心”的暗影军团。</span>
+    </span>
+</a>
+<a href="./movies/0024.html" class="movie-card compact-card" data-title="查尔斯三世" data-tags="王室 君主立宪 权谋" data-year="2024">
+    <span class="poster-frame">
+        <img src="./24.jpg" alt="查尔斯三世" loading="lazy" onerror="handleImageError(this)">
+        <span class="poster-title">查尔斯三世</span>
+        <span class="poster-mask"></span>
+        <span class="duration-badge">45:24</span>
+        <span class="category-badge">悬疑犯罪</span>
+    </span>
+    <span class="card-content">
+        <span class="movie-title">查尔斯三世</span>
+        <span class="movie-meta">2024 · 英国 · 电视剧</span>
+        <span class="movie-desc">登基五年的查尔斯三世国王突然宣布退位,引发英国政坛大地震,而幕后推手竟是一份来自1997年的遗嘱。</span>
+    </span>
+</a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-main">
+            <div>
+                <div class="footer-brand">好看国产剧</div>
+                <p>围绕国产电视剧整理视频资源，提供免费在线播放，更新最新剧集高清大全，支持通过观看入口、热播榜及片库便捷查找内容。</p>
+            </div>
+            <div>
+                <h2>热门入口</h2>
+                <div class="footer-links">
+                    <a href="./category/hot-domestic.html">热播国产剧</a>
+                    <a href="./category/latest-series.html">最新剧集</a>
+                    <a href="./category/urban-emotion.html">都市情感</a>
+                    <a href="./category/costume-drama.html">古装传奇</a>
+                    <a href="./category/suspense-crime.html">悬疑犯罪</a>
+                </div>
+            </div>
+            <div>
+                <h2>站内导航</h2>
+                <div class="footer-links">
+                    <a href="./index.html">首页推荐</a>
+                    <a href="./categories.html">分类片库</a>
+                    <a href="./ranking.html">热播榜单</a>
+                    <a href="./search.html">影片搜索</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 好看国产剧 · 国产电视剧视频免费在线播放</div>
+    </div>
+</footer>
+<script src="./assets/js/site.js"></script>
+<script src="./assets/js/search-index.js"></script>
+<script src="./assets/js/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
